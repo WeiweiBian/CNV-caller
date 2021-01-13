@@ -16,6 +16,7 @@ cut -f 1,2 __cnt.s | uniq -c | gawk '{print $2,$3,$1}' > __cnt.s.n
 
 ## 3. Normalisation 
 -- Total number of reads
+
 -- Primer efficiency (panel specific)
 
 
